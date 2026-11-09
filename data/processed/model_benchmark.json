@@ -1,0 +1,47 @@
+{
+  "dataset_samples": 8000,
+  "train_samples": 6400,
+  "test_samples": 1600,
+  "models": [
+    {
+      "model_name": "Logistic Regression (L2)",
+      "accuracy": 0.9931,
+      "macro_f1": 0.9797,
+      "weighted_f1": 0.9927,
+      "training_time_sec": 0.0547,
+      "latency_per_sample_ms": 0.0001
+    },
+    {
+      "model_name": "Linear SVC (Calibrated)",
+      "accuracy": 0.9931,
+      "macro_f1": 0.9797,
+      "weighted_f1": 0.9927,
+      "training_time_sec": 0.3491,
+      "latency_per_sample_ms": 0.0018
+    },
+    {
+      "model_name": "SGD Classifier (Modified Huber)",
+      "accuracy": 0.9931,
+      "macro_f1": 0.9797,
+      "weighted_f1": 0.9927,
+      "training_time_sec": 0.016,
+      "latency_per_sample_ms": 0.0001
+    },
+    {
+      "model_name": "Multinomial Naive Bayes",
+      "accuracy": 0.9694,
+      "macro_f1": 0.9619,
+      "weighted_f1": 0.9677,
+      "training_time_sec": 0.0064,
+      "latency_per_sample_ms": 0.0001
+    },
+    {
+      "model_name": "Random Forest (100 Trees)",
+      "accuracy": 0.6056,
+      "macro_f1": 0.7111,
+      "weighted_f1": 0.6401,
+      "training_time_sec": 0.1519,
+      "latency_per_sample_ms": 0.0039
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "model_type": "TF-IDF + Logistic Regression",
+  "train_samples": 6400,
+  "test_samples": 1600,
+  "accuracy": 0.9931,
+  "macro_f1": 0.9797,
+  "weighted_f1": 0.9927,
+  "per_category_metrics": {
+    "Bills & Utilities": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 126.0
+    },
+    "EMI & Loans": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 47.0
+    },
+    "Education": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 47.0
+    },
+    "Entertainment": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 94.0
+    },
+    "Food & Dining": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 287.0
+    },
+    "Groceries": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 239.0
+    },
+    "Health & Medical": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 103.0
+    },
+    "Income": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 24.0
+    },
+    "Other / Uncategorized": {
+      "precision": 1.0,
+      "recall": 0.6521739130434783,
+      "f1-score": 0.7894736842105263,
+      "support": 23.0
+    },
+    "Rent & Housing": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 78.0
+    },
+    "Shopping": {
+      "precision": 1.0,
+      "recall": 0.9841269841269841,
+      "f1-score": 0.992,
+      "support": 189.0
+    },
+    "Transfers": {
+      "precision": 0.9126984126984127,
+      "recall": 1.0,
+      "f1-score": 0.9543568464730291,
+      "support": 115.0
+    },
+    "Transport": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 228.0
+    },
+    "accuracy": 0.993125,
+    "macro avg": {
+      "precision": 0.9932844932844933,
+      "recall": 0.9720231459361894,
+      "f1-score": 0.9796792715910426,
+      "support": 1600.0
+    },
+    "weighted avg": {
+      "precision": 0.9937251984126984,
+      "recall": 0.993125,
+      "f1-score": 0.9927480825507753,
+      "support": 1600.0
+    }
+  }
+}

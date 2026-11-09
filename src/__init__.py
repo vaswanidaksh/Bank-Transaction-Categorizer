@@ -1,0 +1,2 @@
+# Bank Transaction Categorizer package
+
